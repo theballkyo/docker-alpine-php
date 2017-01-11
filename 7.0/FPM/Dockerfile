@@ -54,6 +54,7 @@ RUN	echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/reposit
 		php7-phar \
 		php7-zlib \
 		php7-opcache \
+		php7-mbstring \
 		shadow && \
     
     # Install composer
